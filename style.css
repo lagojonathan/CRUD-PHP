@@ -1,0 +1,59 @@
+:root {
+    --main-bg: #f0f2f5;
+    --card-bg: #ffffff;
+    --accent: #6c5ce7;
+    --text: #2d3436;
+}
+
+body {
+    background-color: var(--main-bg);
+    font-family: 'Inter', sans-serif;
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 850px;
+    background: var(--card-bg);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+h1 { text-align: center; color: var(--accent); margin-bottom: 30px; }
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #dfe6e9;
+    border-radius: 6px;
+}
+
+button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 0 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; padding: 15px; border-bottom: 2px solid #eee; }
+td { padding: 15px; border-bottom: 1px solid #f1f1f1; }
+
+.btn { padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px; }
+.edit { background: #e1f5fe; color: #03a9f4; }
+.delete { background: #ffebee; color: #ef5350; margin-left: 5px; }
